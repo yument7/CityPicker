@@ -1,0 +1,15 @@
+{
+  "name": "citypicker",
+  "version": "1.0.0",
+  "description": "省市区镇下拉列表插件",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lvao",
+  "email":"1137804712@qq.com",
+  "license": "ISC"
+}

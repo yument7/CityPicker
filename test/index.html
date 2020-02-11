@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="../src/citypicker.css" />
+		<script src="http://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="../src/cityPicker.js"></script>
+		<style>
+			.container {
+				width: 300px;
+				height: 40px;
+				border: 1px solid #C1C1C1;
+				margin-top: 50px;
+				margin-left: 50px;
+				box-sizing: border-box;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="container"></div>
+		<div class="container"></div>
+		<script>
+			$(function() {
+				$(".container").cityPicker();
+			})
+		</script>
+
+	</body>
+
+</html>
